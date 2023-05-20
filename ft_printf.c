@@ -12,6 +12,8 @@
 
 #include "ft_printf.h"
 
+// Execute the fucnction with args
+
 int	ft_printf(const char *s1, ...)
 {
 	int			i;
@@ -36,5 +38,4 @@ int	ft_printf(const char *s1, ...)
 		i++;
 	}
 	va_end(ap);
-	return (j);
 }

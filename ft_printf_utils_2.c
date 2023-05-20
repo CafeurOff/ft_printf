@@ -12,11 +12,15 @@
 
 #include "ft_printf.h"
 
+// Function for print a char
+
 int	ft_putchar(unsigned char c)
 {
 	write(1, &c, 1);
 	return (1);
 }
+
+// Function for print a string
 
 int	ft_putstr(char *str)
 {
@@ -33,6 +37,8 @@ int	ft_putstr(char *str)
 	return (i);
 }
 
+// Function for get the lenght of a string
+
 size_t	ft_strlen(const char *str)
 {
 	int	i;
@@ -42,6 +48,8 @@ size_t	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
+
+// Function for print a integer
 
 int	ft_putnbr(int n, int i)
 {

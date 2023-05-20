@@ -18,6 +18,8 @@
 # include <stdio.h>
 # include <stdarg.h>
 
+// All functions used
+
 int		ft_putchar(unsigned char c);
 int		ft_putstr(char *str);
 int		ft_putnbr(int n, int i);

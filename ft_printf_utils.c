@@ -12,6 +12,8 @@
 
 #include "ft_printf.h"
 
+// Function for convert a integer in a define base 
+
 int	ft_convert(unsigned int n, char *base, int i)
 {
 	if (n >= ft_strlen(base))
@@ -26,6 +28,8 @@ int	ft_convert(unsigned int n, char *base, int i)
 	}
 	return (i);
 }
+
+// Function for convert void ptr with base hexadecimal
 
 int	ft_convertptr(size_t n, char *base, int i)
 {
@@ -43,6 +47,8 @@ int	ft_convertptr(size_t n, char *base, int i)
 	}
 	return (i);
 }
+
+// Function for define every args options
 
 int	ft_define(char s1, va_list ap)
 {
